@@ -1,7 +1,8 @@
 
 
-#Bangladesh Map
+#Bangladesh Map Creation
 
+#Load Libraries
 
 library(sf)
 library(ggplot2)
@@ -54,7 +55,7 @@ ggplot(data = south_asia) +
   )
 
 
-#data input
+#data input in Bangladesh map
 
 library(dplyr)
 library(readr)
